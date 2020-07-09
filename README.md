@@ -7,7 +7,7 @@
 
 🌱 I’m currently learning Javascript
 
-👯 I’m looking to collaborate on [Fimba Code](https://github.com/Fimba-Code)
+👯 I’m collaborating on [Fimba Code](https://github.com/Fimba-Code)
 
 💬 Ask me about life
 
