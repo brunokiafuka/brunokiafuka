@@ -6,7 +6,7 @@
 
 🔭 I’m currently working on some cool stuff 🥱
 
-🌱 I’m currently learning Javascript
+🌱 I’m currently learning clean code
 
 👯 I’m collaborating on [Fimba Code](https://github.com/Fimba-Code)
 
