@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bruno Kiafuka</title>
+    <meta
+      name="description"
+      content="Bruno Kiafuka — software engineer at Fin.ai (Intercom). Previously Meta and Shopify. Based in Dublin, Ireland."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <button
+      class="theme-toggle"
+      id="themeToggle"
+      type="button"
+      aria-label="Toggle theme"
+    >
+      ● Light
+    </button>
+
+    <main class="page typed">
+      <div class="topline">
+        <span id="cityYear"
+          >Dublin ·
+          <script>
+            document.write(new Date().getFullYear());
+          </script></span
+        >
+      </div>
+
+      <h1 class="name">Bruno Kiafuka<span class="caret"></span></h1>
+      <p class="role">
+        Software engineer at
+        <a href="https://fin.ai" target="_blank" rel="noopener">Fin.ai</a>
+        (Intercom). Previously
+        <a href="https://meta.com" target="_blank" rel="noopener">Meta</a> and
+        <a href="https://shopify.com" target="_blank" rel="noopener">Shopify</a
+        >. Based in Dublin, Ireland. Building small tools when bored.
+      </p>
+
+      <section>
+        <h2 class="sec">About</h2>
+        <p>
+          I build developer tools, mostly because I get curious and want one.
+          Some ship, some stay weird. I also write essays at
+          <a
+            href="https://brunokiafuka.substack.com/"
+            target="_blank"
+            rel="noopener"
+            >BK&rsquo;s Essays</a
+          >
+          about the work and the craft.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="sec">Tools</h2>
+        <ul class="md" id="tools-list"></ul>
+        <p class="more">
+          &rarr;
+          <a
+            href="https://github.com/brunokiafuka?tab=repositories"
+            target="_blank"
+            rel="noopener"
+            >See all repositories on GitHub</a
+          >
+        </p>
+      </section>
+
+      <section>
+        <h2 class="sec">Writing</h2>
+        <ul class="md" id="writing-list"></ul>
+        <p class="more">
+          &rarr;
+          <a
+            href="https://brunokiafuka.substack.com/"
+            target="_blank"
+            rel="noopener"
+            >Read all essays on Substack</a
+          >
+          &middot;
+          <a
+            href="https://brunokiafuka.substack.com/feed"
+            target="_blank"
+            rel="noopener"
+            >RSS</a
+          >
+        </p>
+      </section>
+
+      <section>
+        <h2 class="sec">Elsewhere</h2>
+        <ul class="md" id="elsewhere-list"></ul>
+      </section>
+
+      <footer class="foot">
+        <span>— end of page —</span>
+      </footer>
+    </main>
+
+    <template id="row-template">
+      <li>
+        <span class="body">
+          <span class="name"><a data-slot="name" data-link></a></span>
+          <span class="desc" data-slot="desc"></span>
+        </span>
+        <span class="tag" data-slot="tag"></span>
+      </li>
+    </template>
+
+    <script src="js/theme-manage.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

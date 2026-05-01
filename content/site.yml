@@ -1,0 +1,69 @@
+# yaml-language-server: $schema=./site.schema.json
+# Site content — edit this file, commit, merge to main.
+# `pnpm build:content` (also runs as prestart) compiles this to data/site.json.
+
+tools:
+  - name: gitbar
+    href: https://github.com/brunokiafuka/gitbar
+    desc: macOS menu bar app for your GitHub workflow — PRs, reviews, issues, at a glance.
+    tag: Swift
+  - name: hooked
+    href: https://github.com/brunokiafuka/hooked
+    desc: VS Code extension that graphs React hook dependencies so you can see what re-renders.
+    tag: TypeScript
+  - name: workflow
+    href: https://github.com/brunokiafuka/workflow
+    desc: A small, local-first set of command-line tools. Simple, no cloud, no fuss.
+    tag: TypeScript
+  - name: clean-pack
+    href: https://github.com/brunokiafuka/clean-pack
+    desc: A tiny utility for clearing the cruft around modern JavaScript projects.
+    tag: TypeScript
+
+writing:
+  - name: Token maxer, eventually
+    href: https://brunokiafuka.substack.com/p/token-maxer-eventually
+    desc: From skeptic to convert — what changed when I stopped fighting AI and started planning around it.
+    tag: Apr 2026
+  - name: "The Misunderstood DRY Principle: When Avoiding Duplication Becomes a Problem"
+    href: https://brunokiafuka.substack.com/p/the-misunderstood-dry-principle-when
+    desc: When avoiding duplication becomes its own kind of mess. A case for separating concerns over deduping lines.
+    tag: Feb 2025
+  - name: Think twice, code once!
+    href: https://brunokiafuka.substack.com/p/think-twice-code-once
+    desc: A thinking ritual — gather context, write down assumptions, iterate before any code gets typed.
+    tag: Apr 2024
+  - name: Track your growth
+    href: https://brunokiafuka.substack.com/p/track-your-growth
+    desc: Why a weekly engineer’s journal — highlights, blockers, lessons — beats waiting for performance review season.
+    tag: Apr 2024
+  - name: How do I solve complex problems?
+    href: https://brunokiafuka.substack.com/p/how-do-i-solve-complex-problems-728cdcefdedd
+    desc: A small framework — understand the problem, break it into chunks, review the solution before committing.
+    tag: Apr 2022
+  - name: The best code is no code.
+    href: https://brunokiafuka.substack.com/p/the-best-code-is-no-code-9bfcb0ce7bd
+    desc: Before reaching for a keyboard, sit with the problem. Most software is solving the wrong thing.
+    tag: Nov 2020
+  - name: The checkbox Software Engineer
+    href: https://brunokiafuka.substack.com/p/the-checkbox-software-engineer-7172d6f00bcb
+    desc: On engineers who ship tickets without asking why — and how product-minded thinking changes the work.
+    tag: Jul 2020
+
+elsewhere:
+  - name: GitHub
+    href: https://github.com/brunokiafuka
+    desc: Source for everything above, plus 140+ smaller experiments.
+    tag: "@brunokiafuka"
+  - name: BK’s Essays
+    href: https://brunokiafuka.substack.com/
+    desc: A new piece every couple of weeks. Mostly on craft, tools, and small software.
+    tag: Substack
+  - name: X
+    href: https://twitter.com/bruno_kiafuka
+    desc: Half-formed thoughts and links to whatever I’m reading.
+    tag: "@bruno_kiafuka"
+  - name: LinkedIn
+    href: https://linkedin.com/in/brunokiafuka
+    desc: CV-flavored summary, if that’s your thing.
+    tag: /in/brunokiafuka

@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Site content",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "tools":     { "type": "array", "items": { "$ref": "#/$defs/row" } },
+    "writing":   { "type": "array", "items": { "$ref": "#/$defs/row" } },
+    "elsewhere": { "type": "array", "items": { "$ref": "#/$defs/row" } }
+  },
+  "$defs": {
+    "row": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "href", "desc"],
+      "properties": {
+        "name": { "type": "string", "description": "Display name (link text)" },
+        "href": { "type": "string", "description": "URL or mailto: link" },
+        "desc": { "type": "string", "description": "One-line description" },
+        "tag":  { "type": "string", "description": "Right-aligned metadata (language, length, handle, etc.)" }
+      }
+    }
+  }
+}
