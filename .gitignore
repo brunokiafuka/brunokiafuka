@@ -1,2 +1,8 @@
+node_modules/
+_site/
 data/site.json
 .claude
+.DS_Store
+*.log
+.env
+.env.local
