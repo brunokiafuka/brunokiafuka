@@ -52,8 +52,13 @@
     const link = fragment.querySelector('[data-link]');
     if (link && item.href) {
       link.href = item.href;
-      link.target = '_blank';
-      link.rel = 'noopener';
+      link.setAttribute('aria-label', item.name + ' (opens in new tab)');
+      if (item.href.indexOf('mailto:') !== 0) {
+        link.target = '_blank';
+        link.rel = 'noopener';
+      } else {
+        link.setAttribute('aria-label', item.name);
+      }
     }
 
     return fragment;

@@ -2,7 +2,7 @@
   --paper: #ffffff;
   --ink: #111111;
   --ink-soft: #2a2a2a;
-  --ink-mute: #7a7a7a;
+  --ink-mute: #6a6a6a;
   --rule: #1111111a;
 
   --type: "Courier Prime", "Courier New", monospace;
@@ -272,6 +272,20 @@ ul.elsewhere-lines .key {
   font-weight: 700;
   text-transform: lowercase;
   white-space: nowrap;
+}
+ul.elsewhere-lines .key::before {
+  content: "[";
+  color: var(--ink-mute);
+  font-weight: 400;
+}
+ul.elsewhere-lines .key::after {
+  content: "]";
+  color: var(--ink-mute);
+  font-weight: 400;
+}
+ul.elsewhere-lines .note::before {
+  content: "# ";
+  color: var(--ink-mute);
 }
 ul.elsewhere-lines .url {
   color: var(--ink);

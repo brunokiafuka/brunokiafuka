@@ -90,8 +90,8 @@
         >.
       </p>
 
-      <section>
-        <h2 class="sec">About</h2>
+      <section aria-labelledby="sec-about">
+        <h2 id="sec-about" class="sec">About</h2>
         <p>
           I like building small developer tools, mostly because I get curious
           and want one. Some ship, some stay weird. I also write essays at
@@ -105,8 +105,8 @@
         </p>
       </section>
 
-      <section>
-        <h2 class="sec">Tools</h2>
+      <section aria-labelledby="sec-tools">
+        <h2 id="sec-tools" class="sec">Tools</h2>
         <ul class="md" id="tools-list"></ul>
         <p class="more">
           &rarr;
@@ -119,8 +119,8 @@
         </p>
       </section>
 
-      <section>
-        <h2 class="sec">Writing</h2>
+      <section aria-labelledby="sec-writing">
+        <h2 id="sec-writing" class="sec">Writing</h2>
         <ul class="md" id="writing-list"></ul>
         <p class="more">
           &rarr;
@@ -140,8 +140,8 @@
         </p>
       </section>
 
-      <section>
-        <h2 class="sec">Elsewhere</h2>
+      <section aria-labelledby="sec-elsewhere">
+        <h2 id="sec-elsewhere" class="sec">Elsewhere</h2>
         <ul class="elsewhere-lines" id="elsewhere-list"></ul>
       </section>
 
@@ -167,9 +167,9 @@
 
     <template id="elsewhere-row-template">
       <li>
-        <span class="key">[<span data-slot="key"></span>]</span>
+        <span class="key" data-slot="key"></span>
         <a class="url" data-slot="url" data-link></a>
-        <span class="note"># <span data-slot="desc"></span></span>
+        <span class="note" data-slot="desc"></span>
       </li>
     </template>
 
