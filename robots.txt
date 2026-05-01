@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://brunokiafuka.github.io/sitemap.xml
+Sitemap: https://bkiafuka.com/sitemap.xml
