@@ -53,17 +53,17 @@ writing:
 elsewhere:
   - name: GitHub
     href: https://github.com/brunokiafuka
-    desc: Source for everything above, plus 140+ smaller experiments.
+    desc: source for everything above
     tag: "@brunokiafuka"
   - name: BK’s Essays
     href: https://brunokiafuka.substack.com/
-    desc: A new piece every couple of weeks. Mostly on craft, tools, and small software.
+    desc: a new piece every couple of weeks
     tag: Substack
   - name: X
     href: https://twitter.com/bruno_kiafuka
-    desc: Half-formed thoughts and links to whatever I’m reading.
+    desc: half-formed thoughts
     tag: "@bruno_kiafuka"
   - name: LinkedIn
     href: https://linkedin.com/in/brunokiafuka
-    desc: CV-flavored summary, if that’s your thing.
+    desc: CV-flavored, if that’s your thing
     tag: /in/brunokiafuka

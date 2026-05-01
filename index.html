@@ -87,14 +87,14 @@
         (Intercom). Previously
         <a href="https://meta.com" target="_blank" rel="noopener">Meta</a> and
         <a href="https://shopify.com" target="_blank" rel="noopener">Shopify</a
-        >. I build small tools when bored.
+        >.
       </p>
 
       <section>
         <h2 class="sec">About</h2>
         <p>
-          I build small tools, mostly because I get curious and want one. Some
-          ship, some stay weird. I also write essays at
+          I like building small developer tools, mostly because I get curious
+          and want one. Some ship, some stay weird. I also write essays at
           <a
             href="https://brunokiafuka.substack.com/"
             target="_blank"
@@ -142,7 +142,7 @@
 
       <section>
         <h2 class="sec">Elsewhere</h2>
-        <ul class="md" id="elsewhere-list"></ul>
+        <ul class="elsewhere-lines" id="elsewhere-list"></ul>
       </section>
 
       <footer class="foot">
@@ -162,6 +162,14 @@
           <span class="desc" data-slot="desc"></span>
         </span>
         <span class="tag" data-slot="tag"></span>
+      </li>
+    </template>
+
+    <template id="elsewhere-row-template">
+      <li>
+        <span class="key">[<span data-slot="key"></span>]</span>
+        <a class="url" data-slot="url" data-link></a>
+        <span class="note"># <span data-slot="desc"></span></span>
       </li>
     </template>
 
