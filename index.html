@@ -3,11 +3,73 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Bruno Kiafuka</title>
+    <title>Bruno Kiafuka — Software engineer in Dublin</title>
     <meta
       name="description"
-      content="Bruno Kiafuka — software engineer at Fin.ai (Intercom). Previously Meta and Shopify. Based in Dublin, Ireland."
+      content="Bruno Kiafuka — software engineer at Fin.ai (Intercom). Previously Meta and Shopify. Based in Dublin, Ireland. Building small developer tools."
     />
+    <meta name="author" content="Bruno Kiafuka" />
+    <meta
+      name="theme-color"
+      content="#ffffff"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#0e0e0e"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link rel="canonical" href="https://brunokiafuka.github.io/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Bruno Kiafuka" />
+    <meta
+      property="og:title"
+      content="Bruno Kiafuka — Software engineer in Dublin"
+    />
+    <meta
+      property="og:description"
+      content="Software engineer at Fin.ai (Intercom). Previously Meta and Shopify. Building small developer tools."
+    />
+    <meta property="og:url" content="https://brunokiafuka.github.io/" />
+    <meta property="og:locale" content="en_IE" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@bruno_kiafuka" />
+    <meta name="twitter:creator" content="@bruno_kiafuka" />
+    <meta
+      name="twitter:title"
+      content="Bruno Kiafuka — Software engineer in Dublin"
+    />
+    <meta
+      name="twitter:description"
+      content="Software engineer at Fin.ai (Intercom). Previously Meta and Shopify. Building small developer tools."
+    />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bruno Kiafuka",
+        "url": "https://brunokiafuka.github.io/",
+        "jobTitle": "Software Engineer",
+        "worksFor": { "@type": "Organization", "name": "Fin.ai" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dublin",
+          "addressCountry": "IE"
+        },
+        "sameAs": [
+          "https://github.com/brunokiafuka",
+          "https://brunokiafuka.substack.com",
+          "https://twitter.com/bruno_kiafuka",
+          "https://linkedin.com/in/brunokiafuka"
+        ]
+      }
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,6 +78,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link id="favicon" rel="icon" type="image/svg+xml" href="favicon.svg" />
   </head>
   <body>
     <button
@@ -28,15 +91,6 @@
     </button>
 
     <main class="page typed">
-      <div class="topline">
-        <span id="cityYear"
-          >Dublin ·
-          <script>
-            document.write(new Date().getFullYear());
-          </script></span
-        >
-      </div>
-
       <h1 class="name">Bruno Kiafuka<span class="caret"></span></h1>
       <p class="role">
         Software engineer at
@@ -105,6 +159,11 @@
       <footer class="foot">
         <span>— end of page —</span>
       </footer>
+
+      <aside class="ascii-term" aria-hidden="true">
+        <span class="prompt">bk@dublin:~$</span>
+        <span id="asciiCmd" class="cmd"></span><span class="cursor">█</span>
+      </aside>
     </main>
 
     <template id="row-template">
@@ -118,6 +177,8 @@
     </template>
 
     <script src="js/theme-manage.js" defer></script>
+    <script src="js/name-type.js" defer></script>
     <script src="js/main.js" defer></script>
+    <script src="js/ascii-term.js" defer></script>
   </body>
 </html>

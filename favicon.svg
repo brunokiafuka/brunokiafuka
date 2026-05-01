@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg { fill: #ffffff; }
+    .fg { fill: #111111; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0e0e0e; }
+      .fg { fill: #ededed; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="8"/>
+  <text class="fg" x="32" y="32" dy=".35em" text-anchor="middle"
+        font-family="ui-monospace, 'Courier New', monospace"
+        font-weight="700" font-size="30" letter-spacing="-1">BK</text>
+</svg>

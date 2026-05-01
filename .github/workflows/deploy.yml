@@ -41,7 +41,7 @@ jobs:
       - name: Assemble site
         run: |
           mkdir -p _site
-          cp index.html _site/
+          cp index.html favicon.svg robots.txt sitemap.xml llms.txt _site/
           cp -r css js data _site/
 
       - name: Configure Pages
